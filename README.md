@@ -43,13 +43,17 @@ def welcome():
     return "Welcome to my first flask project"
 ```
 
+**Running `app.py` file**
+
 Run http://127.0.0.1:5000/
 ![screenshot_homepage](images/firstflaskimg.jpg)
 
-http://127.0.0.1:5000/welcome_user
+**Running `app.py` file**
+
+Run http://127.0.0.1:5000/welcome_user
 ![screenshot welcome_user](images/welcome_user.jpg)
 
-Exercise Files:
+## Exercise Files:
 
 [Main Home Page](app.py)
 [Static Files - CSS](static)
