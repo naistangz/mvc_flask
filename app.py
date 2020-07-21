@@ -10,6 +10,18 @@ app = Flask(__name__)
 def index():
     return render_template('home.html')
 
+"""
+Exercise:
+1. Create a function called welcome_user
+2. Create a decorator to link the page/user
+3. Return 'Welcome to Python Flask { user }
+"""
+
+@app.route('/welcome_user')
+def welcome_user():
+    return render_template('welcome_user.html')
+
+
 # index method will be called at the endpoint
 # index method will display on our home page
 # syntax to run our app
