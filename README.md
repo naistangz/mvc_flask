@@ -55,6 +55,6 @@ Run http://127.0.0.1:5000/welcome_user
 
 ## Exercise Files:
 
-[Main Home Page](app.py)
-[Static Files - CSS](static)
-[HTML documents](templates)
+- [x][Main Home Page](app.py)
+- [x][Static Files - CSS](static)
+- [x][HTML documents](templates)
