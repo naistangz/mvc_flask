@@ -9,6 +9,15 @@ $ pip install Flask
 from flask import Flask
 ```
 
+## Using `render_template` method to use HTML files
+**N.B.** Flask will look for templates in the `templates` folder
+```python
+from flask import render_template
+def hello(name=None):
+    render_template('hello.html' ,name=name)
+```
+
+
 ## Running flask 
 ```bash
 export FLASK_APP=filename.py
@@ -40,7 +49,7 @@ def index():
 ```python
 @app.route('/welcome')
 def welcome():
-    return "Welcome to my first flask project"
+    render_template('home.html')
 ```
 
 **Running `app.py` file**
